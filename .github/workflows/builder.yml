@@ -10,11 +10,11 @@ on:
         GSI:
               description: ' GSI Image Direct Link '
               required: true
-              default: 'https://github.com/ponces/treble_build_aosp/releases/download/v2023.12.01/aosp-arm64-ab-gapps-14.0-20231201.img.xz'        
+              default: 'https://github.com/naz664/ArrowOS_gsi/releases/download/v2023.10.28/ArrowOS-13.1-a64_bgN-slim-Unofficial.img.xz'        
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'aosp-arm64-ab-gapps-14.0-a03.7z'
+              default: 'arrow-arm64-ab-gapps-14.0-a03.7z'
         VERSION:
               description: 'Baseband Version'
               required: true
@@ -22,7 +22,7 @@ on:
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
-              default: 'https://filetransfer.io/data-package/mb5IMwar#link'
+              default: 'https://fromsmash.com/vendor.img'
 jobs:
   Build:
     runs-on: ubuntu-latest
