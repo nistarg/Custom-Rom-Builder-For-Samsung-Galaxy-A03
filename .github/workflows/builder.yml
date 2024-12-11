@@ -18,11 +18,11 @@ on:
         VERSION:
               description: 'Baseband Version'
               required: true
-              default: 'A035FXXU4CWI1'
+              default: 'A035FXXS7CXF3'
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
-              default: 'https://sourceforge.net/projects/a03-files/files/A035FXXU4CWI1/vendor.img'
+              default: 'https://filetransfer.io/data-package/mb5IMwar#link'
 jobs:
   Build:
     runs-on: ubuntu-latest
