@@ -22,7 +22,7 @@ on:
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
-              default: 'https://fromsmash.com/vendor.img'
+              default: 'https://sourceforge.net/projects/a03-files/files/A035FXXS5CWK1/vendor.img'
 jobs:
   Build:
     runs-on: ubuntu-latest
