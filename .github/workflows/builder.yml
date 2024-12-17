@@ -18,7 +18,7 @@ on:
         VERSION:
               description: 'Baseband Version'
               required: true
-              default: 'A035FXXU4CWI1'
+              default: 'A035FXXS7CXF3'
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
